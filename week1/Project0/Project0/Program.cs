@@ -6,6 +6,13 @@ namespace CaloricCounterApp
     {
         static void Main(string[] args)
         {
+            // Text art at the beginning
+            Console.WriteLine("********************************************");
+            Console.WriteLine("*                                          *");
+            Console.WriteLine("*        WELCOME TO CALORIC COUNTER        *");
+            Console.WriteLine("*                                          *");
+            Console.WriteLine("********************************************");
+
             // User Story 1: Ask the user for their goal calories
             Console.WriteLine("Enter your daily goal for calories:");
             int goalCalories;
@@ -51,13 +58,18 @@ namespace CaloricCounterApp
             int totalCalories = breakfastCalories + lunchCalories + dinnerCalories;
 
             // Display meal details and total calories
-            Console.WriteLine("\nMeal Details:");
+            Console.WriteLine("\n********************************************");
+            Console.WriteLine("*               MEAL DETAILS               *");
+            Console.WriteLine("********************************************");
             Console.WriteLine($"Breakfast: {breakfastName} - {breakfastCalories} calories");
             Console.WriteLine($"Lunch: {lunchName} - {lunchCalories} calories");
             Console.WriteLine($"Dinner: {dinnerName} - {dinnerCalories} calories");
             Console.WriteLine($"Total Calories: {totalCalories}");
 
             // Compare to goal calories
+            Console.WriteLine("\n********************************************");
+            Console.WriteLine("*              GOAL COMPARISON             *");
+            Console.WriteLine("********************************************");
             int difference = totalCalories - goalCalories;
             if (difference > 0)
             {
