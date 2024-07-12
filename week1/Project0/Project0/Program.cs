@@ -2,6 +2,15 @@
 
 namespace CaloricCounterApp
 {
+    /*
+     * User Stories:
+     * 1. As a user, I want to set a daily goal for calorie intake.
+     * 2. As a user, I want to input the breakfast item and its calorie count.
+     * 3. As a user, I want to input the lunch item and its calorie count.
+     * 4. As a user, I want to input the dinner item and its calorie count.
+     * 5. As a user, I want to see the total calories consumed and compare it to my goal.
+     */
+
     class Program
     {
         static void Main(string[] args)
@@ -21,6 +30,9 @@ namespace CaloricCounterApp
                 Console.WriteLine("Invalid input. Enter a valid positive number for goal calories:");
             }
 
+            // Create a CaloricCounter object
+            CaloricCounter counter = new CaloricCounter(goalCalories);
+
             // User Story 2: Ask the user for breakfast item and calories
             Console.WriteLine("Enter breakfast item:");
             string breakfastName = Console.ReadLine();
@@ -31,6 +43,8 @@ namespace CaloricCounterApp
             {
                 Console.WriteLine("Invalid input. Enter a valid positive number for calories:");
             }
+            // Assign the breakfast Meal to the counter object
+            counter.Breakfast = new Meal(breakfastName, breakfastCalories);
 
             // User Story 3: Ask the user for lunch item and calories
             Console.WriteLine("Enter lunch item:");
@@ -42,6 +56,8 @@ namespace CaloricCounterApp
             {
                 Console.WriteLine("Invalid input. Enter a valid positive number for calories:");
             }
+            // Assign the lunch Meal to the counter object
+            counter.Lunch = new Meal(lunchName, lunchCalories);
 
             // User Story 4: Ask the user for dinner item and calories
             Console.WriteLine("Enter dinner item:");
@@ -53,6 +69,8 @@ namespace CaloricCounterApp
             {
                 Console.WriteLine("Invalid input. Enter a valid positive number for calories:");
             }
+            // Assign the dinner Meal to the counter object
+            counter.Dinner = new Meal(dinnerName, dinnerCalories);
 
             // Calculate total calories
             int totalCalories = breakfastCalories + lunchCalories + dinnerCalories;
@@ -61,16 +79,16 @@ namespace CaloricCounterApp
             Console.WriteLine("\n********************************************");
             Console.WriteLine("*               MEAL DETAILS               *");
             Console.WriteLine("********************************************");
-            Console.WriteLine($"Breakfast: {breakfastName} - {breakfastCalories} calories");
-            Console.WriteLine($"Lunch: {lunchName} - {lunchCalories} calories");
-            Console.WriteLine($"Dinner: {dinnerName} - {dinnerCalories} calories");
+            Console.WriteLine($"Breakfast: {counter.Breakfast}");
+            Console.WriteLine($"Lunch: {counter.Lunch}");
+            Console.WriteLine($"Dinner: {counter.Dinner}");
             Console.WriteLine($"Total Calories: {totalCalories}");
 
             // Compare to goal calories
             Console.WriteLine("\n********************************************");
             Console.WriteLine("*              GOAL COMPARISON             *");
             Console.WriteLine("********************************************");
-            int difference = totalCalories - goalCalories;
+            int difference = counter.CompareToGoal();
             if (difference > 0)
             {
                 Console.WriteLine($"You have exceeded your goal by {difference} calories.");
