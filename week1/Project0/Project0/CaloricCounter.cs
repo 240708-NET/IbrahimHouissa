@@ -5,11 +5,17 @@ namespace CaloricCounterApp
     // Encapsulation: Create a class to handle the daily calorie goal and meals
     public class CaloricCounter
     {
-        public int GoalCalories { get; set; }
+        private int goalCalories;
         public Meal Breakfast { get; set; }
         public Meal Lunch { get; set; }
         public Meal Dinner { get; set; }
 
+        public int GoalCalories // Public property
+        {
+            get { return goalCalories; }
+            private set { goalCalories = value; }
+        }
+        
         public CaloricCounter(int goalCalories)
         {
             GoalCalories = goalCalories;

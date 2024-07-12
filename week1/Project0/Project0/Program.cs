@@ -73,7 +73,7 @@ namespace CaloricCounterApp
             counter.Dinner = new Meal(dinnerName, dinnerCalories);
 
             // Calculate total calories
-            int totalCalories = breakfastCalories + lunchCalories + dinnerCalories;
+            int totalCalories = counter.TotalCalories();
 
             // Display meal details and total calories
             Console.WriteLine("\n********************************************");
