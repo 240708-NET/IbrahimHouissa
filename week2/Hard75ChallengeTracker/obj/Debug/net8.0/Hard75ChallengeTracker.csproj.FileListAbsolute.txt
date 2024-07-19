@@ -1,0 +1,15 @@
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\bin\Debug\net8.0\Hard75ChallengeTracker.exe
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\bin\Debug\net8.0\Hard75ChallengeTracker.deps.json
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\bin\Debug\net8.0\Hard75ChallengeTracker.runtimeconfig.json
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\bin\Debug\net8.0\Hard75ChallengeTracker.dll
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\bin\Debug\net8.0\Hard75ChallengeTracker.pdb
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\Hard75ChallengeTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\Hard75ChallengeTracker.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\Hard75ChallengeTracker.AssemblyInfo.cs
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\Hard75ChallengeTracker.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\Hard75ChallengeTracker.sourcelink.json
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\Hard75ChallengeTracker.dll
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\refint\Hard75ChallengeTracker.dll
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\Hard75ChallengeTracker.pdb
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\Hard75ChallengeTracker.genruntimeconfig.cache
+C:\Users\Ibrahim\Documents\Revature\IbrahimHouissa\week2\Hard75ChallengeTracker\obj\Debug\net8.0\ref\Hard75ChallengeTracker.dll
