@@ -1,5 +1,4 @@
-﻿// Program.cs
-using LibraryManagement.Data;
+﻿using LibraryManagement.Data;
 using LibraryManagement.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -9,6 +8,13 @@ using System.IO;
 
 namespace LibraryManagement
 {
+
+    // User Stories:
+    // 1. As a user, I want to add new books to the library, so that I can manage my collection.
+    // 2. As a user, I want to view all books in the library, so that I can see my collection.
+    // 3. As a user, I want to edit book details, so that I can update information if needed.
+    // 4. As a user, I want to delete books from the library, so that I can remove books I no longer have.
+
     class Program
     {
         static void Main(string[] args)
